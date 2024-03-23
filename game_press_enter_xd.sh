@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # set -x
-version="v1.0.1"
+version="v1.0.2"
 status=0
 function usage() {
   echo -e "Available options:"
@@ -127,7 +127,7 @@ elif [ "$opt" == "score" ]; then
 elif [ "$opt" == "news" ]; then
   echo "(v1.0.0) : Rilis pertama belum dipublikasikan"
   echo "($version) : Fitur save skor segera hadir di versi akan datang! (current)"
-  echo "(v1.0.2) : Fitur leaderboard segera hadir di versi yang akan datang!"
+  echo "(v1.2.0 : Fitur leaderboard segera hadir di versi yang akan datang!"
   exit 0
 elif [ "$opt" == "save" ]; then
   echo -e "Masukan nama: "
