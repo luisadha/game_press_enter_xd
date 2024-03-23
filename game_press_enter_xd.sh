@@ -114,7 +114,7 @@ elif [ "$opt" == "score" ]; then
   else
 
     score=$(nl -b a $0.score | wc -l)
-    result=$((score - 1))
+    result=$((score - 2))
     
     if [ $result -lt 0 ]; then
       result=0
