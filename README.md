@@ -2,6 +2,8 @@
 
 Sebuah game cli sederhana, Siapa cepat menekan tombol enteR. Apakah anda bisa mengalahkan kecepatan robot? Anda bisa membuktikannya disini.
 
+# Please read dependencies.txt before running this game!!!
+
 # Cara kerja
 
 Pemain mengharuskan menekan huruf "R" sebelum Ai akhirnya menekan tombol Enter untuk mengakhiri permainan ini. Jangan memalingkan pandangan Anda karena bisa saja anda akan kalah. Permainan ini akan terus mencetak skor sampai pemain lelah.
